@@ -1,0 +1,120 @@
+
+   <!-- 🚀 BLOQUES EXTRA - TU KIT DE EXPANSIÓN
+    
+    INSTRUCCIONES:
+    1. Elige la sección que quieras agregar.
+    2. Copia todo el bloque de código (desde section hasta section de cierre).
+    3. Ve a tu archivo index.html.
+    4. Pégalo JUSTO ANTES de la etiqueta que dice body
+    
+    ¡Dale guardar y mira la magia!  -->
+
+
+
+<section id="stack" class="py-20 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">Mi Arsenal Tecnológico</h2>
+            <p class="text-slate-400">Las herramientas que uso para dar vida a las ideas.</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            
+            <!-- Skill 1 -->
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-cyan-400/50 transition-all group text-center">
+                <div class="text-4xl text-cyan-400 mb-3 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3 class="font-bold text-white">HTML5</h3>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-blue-500/50 transition-all group text-center">
+                <div class="text-4xl text-blue-500 mb-3 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <h3 class="font-bold text-white">CSS3</h3>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-yellow-400/50 transition-all group text-center">
+                <div class="text-4xl text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fab fa-js"></i>
+                </div>
+                <h3 class="font-bold text-white">JavaScript</h3>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-400/50 transition-all group text-center">
+                <div class="text-4xl text-purple-400 mb-3 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fab fa-git-alt"></i>
+                </div>
+                <h3 class="font-bold text-white">Git</h3>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ========================================== -->
+<!-- OPCIÓN 2: SECCIÓN "SOBRE MÍ" CON FOTO -->
+<!-- Úsalo para contar tu historia brevemente -->
+<!-- ========================================== -->
+
+<section class="py-20 relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-slate-800/50 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-12">
+            
+            <!-- Imagen Circular -->
+            <div class="relative shrink-0">
+                <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-600 rounded-full blur opacity-70"></div>
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" 
+                     alt="Perfil" 
+                     class="relative w-48 h-48 object-cover rounded-full border-4 border-slate-900 shadow-2xl">
+            </div>
+
+            <!-- Texto -->
+            <div class="text-center md:text-left">
+                <h2 class="text-3xl font-bold text-white mb-4">Más sobre mí</h2>
+                <p class="text-slate-300 leading-relaxed mb-6">
+                    Soy un apasionado por la tecnología que decidió dejar de ser solo un usuario para convertirse en creador. 
+                    Me especializo en transformar diseños complejos en código limpio y funcional. 
+                    Cuando no estoy programando, estoy aprendiendo sobre IA y UX.
+                </p>
+                <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+                    <span class="px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-sm font-semibold">Proactivo</span>
+                    <span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm font-semibold">Autodidacta</span>
+                    <span class="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-sm font-semibold">Bilingüe</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ========================================== -->
+<!-- OPCIÓN 3: FOOTER PROFESIONAL (Pie de página) -->
+<!-- Siempre va al final del todo -->
+<!-- ========================================== -->
+
+<footer class="border-t border-slate-800 bg-[#050810] pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <h2 class="text-2xl font-bold text-white mb-6">¿Trabajamos juntos?</h2>
+        <p class="text-slate-400 mb-8 max-w-md mx-auto">
+            Estoy buscando oportunidades como Junior Developer. Si tienes un proyecto o vacante, hablemos.
+        </p>
+        
+        <div class="flex justify-center gap-6 mb-12">
+            <a href="#" class="text-slate-400 hover:text-white text-2xl transition-colors"><i class="fab fa-github"></i></a>
+            <a href="#" class="text-slate-400 hover:text-blue-400 text-2xl transition-colors"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-slate-400 hover:text-pink-500 text-2xl transition-colors"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:tu@email.com" class="text-slate-400 hover:text-cyan-400 text-2xl transition-colors"><i class="fas fa-envelope"></i></a>
+        </div>
+        
+        <p class="text-slate-600 text-sm">
+            © 2026 Diseñado y Creado por [Tu Nombre].
+        </p>
+    </div>
+</footer>
